@@ -1,100 +1,111 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet"
-  href="./bootstrap.min.css">
-<style type="text/css">
-body{
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    -moz-background-size: 100% 100%;
-    background-color: white;
-	text-align:center;
-}
-.cont{
-	margin-top:8%;
-	width: 100%
-}
-.lg{
-	width: 96%
-}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet"
+          href="./bootstrap.min.css">
+    <style type="text/css">
+        body {
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            -moz-background-size: 100% 100%;
+            background-color: white;
+            text-align: center;
+        }
 
-.box{
-	width: 100%;
-}
-.img-box{
-	width: 80%;
-	position:relative;
-	margin-left: 10%;
-}
-.img-box img{
-	position:absolute;
-	top:0;
-	bottom:0;
-	left:0;
-	right:0;
-	width:100%;
-	margin-top :1%;
-	z-index: -1;
-	*zoom:1;
-}
-.img-box:before {
-	content: "";
-	display: inline-block;
-	padding-bottom: 140%;
-	width: 0.1px;	/*必须要有数值，否则无法把高度撑起来*/
-	vertical-align: middle;
-}
-.btn {
-    width: 80%;
-    height: 40px;
-    border: 1px solid;
-    border-radius: 6px;
-    color: #ffffff;
-    cursor: pointer;
-    font-size: 16px;
-    font-family: PingFangSC-Regular;
-    vertical-align: top;
-    background: -webkit-linear-gradient(left top, #54B8F4, #5C78EB);
-    background: -o-linear-gradient(bottom right, #54B8F4, #5C78EB);
-    background: -moz-linear-gradient(bottom right, #54B8F4, #5C78EB);
-    background: linear-gradient(to bottom right, #54B8F4, #5C78EB);
-}
-.rouse-padding {
-    padding-bottom: 8px;
-}
-.rouse-span {
-    display: block;
-    color: #929292;
-    font-family: PingFangSC-Regular;
-}
-</style>
+        .cont {
+            margin-top: 8%;
+            width: 100%
+        }
+
+        .lg {
+            width: 96%
+        }
+
+        .box {
+            width: 100%;
+        }
+
+        .img-box {
+            width: 80%;
+            position: relative;
+            margin-left: 10%;
+        }
+
+        .img-box img {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            margin-top: 1%;
+            z-index: -1;
+            *zoom: 1;
+        }
+
+        .img-box:before {
+            content: "";
+            display: inline-block;
+            padding-bottom: 140%;
+            width: 0.1px; /*必须要有数值，否则无法把高度撑起来*/
+            vertical-align: middle;
+        }
+
+        .btn {
+            width: 80%;
+            height: 40px;
+            border: 1px solid;
+            border-radius: 6px;
+            color: #ffffff;
+            cursor: pointer;
+            font-size: 16px;
+            font-family: PingFangSC-Regular;
+            vertical-align: top;
+            background: -webkit-linear-gradient(left top, #54B8F4, #5C78EB);
+            background: -o-linear-gradient(bottom right, #54B8F4, #5C78EB);
+            background: -moz-linear-gradient(bottom right, #54B8F4, #5C78EB);
+            background: linear-gradient(to bottom right, #54B8F4, #5C78EB);
+        }
+
+        .rouse-padding {
+            padding-bottom: 8px;
+        }
+
+        .rouse-span {
+            display: block;
+            color: #929292;
+            font-family: PingFangSC-Regular;
+        }
+    </style>
 </head>
 
-<body >
+<body>
 
 <div class="box">
-	<div class="img-box">
-			<img src="./background.png"/>
+    <div class="img-box">
+        <img src="./background.png"/>
     </div>
 </div>
-  	<div class="container text-center cont">
-		<button class="btn btn-default btn-lg lg" type="submit" onclick='a()'>
-		安卓版2.3.5下载
-		</button>
-	</div>
-	<div>
-		<span class="rouse-span rouse-padding">企业营业执照</span>
-		|
-		<span class="rouse-span rouse-padding">如未安装请点击下载</span>
-	</div>
+<div class="container text-center cont">
+    <button class="btn btn-default btn-lg lg" type="submit" onclick='a()'>
+        安卓版2.3.5下载
+    </button>
+</div>
+<div>
+    <span class="rouse-span rouse-padding"><a href="./line.png">企业营业执照</a></span>
+    |
+    <span class="rouse-span rouse-padding">如未安装请点击下载</span>
+</div>
+<div>
+    <span class="rouse-span rouse-padding">网站备案/许可证号：粤ICP备19028967号-1  创江贸易有限公司</span>
+</div>
 </body>
 </html>
 <script language=javascript>
-function a(){
-	// alert(1111);
-  window.open("http://www.thanksgiving.cn:9022/download/getApk");
- }
+    function a() {
+        // alert(1111);
+        window.open("http://www.thanksgiving.cn:9022/download/getApk");
+    }
 </script>
