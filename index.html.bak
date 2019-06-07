@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet"
+  href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<style type="text/css">
+body{
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-color: lightblue;
+text-align:center;
+}
+.cont{
+	position: fixed;
+	bottom: 10%;
+	width: 100%
+}
+.lg{
+	width: 96%
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+<div class="jumbotron">
+  <h1><img src="/static/img/gongyitubiao.png" width="100">感恩链</h1>
+  <p></p>
+</div>
+</div>
+
+<div class="container text-center cont">
+	<button class="btn btn-default btn-lg lg" type="submit" onclick='a()'>
+		<img src="/static/img/android.png" width="40">
+		安卓版下载
+	</button>
+</div>
+</body>
+</html>
+<script language=javascript>
+function a(){
+	// alert(1111);
+  window.open("http://120.79.191.116:9022/download/getApk");
+ }
+</script>
