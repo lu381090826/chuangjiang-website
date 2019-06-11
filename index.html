@@ -90,7 +90,10 @@
 </div>
 <div class="container text-center cont">
     <button class="btn btn-default btn-lg lg" type="submit" onclick='a()'>
-        安卓版2.3.5下载
+        安卓版2.3.6下载
+    </button>
+    <button class="btn btn-default btn-lg lg" type="submit" onclick='b()'>
+        IOS版2.3.6下载
     </button>
 </div>
 <div>
@@ -107,5 +110,9 @@
     function a() {
         // alert(1111);
         window.open("http://www.thanksgiving.cn:9022/download/getApk");
+    }
+    function b() {
+        window.open("itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/tc976562936/ticket/master/manifest.plist");
+
     }
 </script>
