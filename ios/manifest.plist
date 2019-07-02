@@ -11,7 +11,7 @@
                     <key>kind</key>
                     <string>software-package</string>
                     <key>url</key>
-                    <string>https://www.thanksgiving.cn/ios/H58335462_0620212221.ipa</string>
+                    <string>https://www.thanksgiving.cn/ios/H58335462_0703000113.ipa</string>
                 </dict>
                 <dict>
                     <key>kind</key>
@@ -19,7 +19,7 @@
                     <key>needs-shine</key>
                     <true/>
                     <key>url</key>
-                    <string>https://www.thanksgiving.cn/ios/gongyi57*57.png</string>
+                    <string>https://www.thanksgiving.cn/ios/gongyi512*512.png</string>
                 </dict>
                 <dict>
                     <key>kind</key>
@@ -27,7 +27,7 @@
                     <key>needs-shine</key>
                     <true/>
                     <key>url</key>
-                    <string>https://www.thanksgiving.cn/ios/gongyi512*512.png</string>
+                    <string>https://www.thanksgiving.cn/ios/gongyi57*57.png</string>
                 </dict>
             </array>
             <key>metadata</key>
